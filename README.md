@@ -8,6 +8,6 @@
 It's a small project to study basic stuff, not for using in production deployment
 
 The goal is to create simillar site
-![image](https://github.com/asphodel42/flask_test/assets/102360508/eab0e592-4521-483e-9bed-098414550c89)
+![image](https://github.com/asphodel42/flask_test/assets/102360508/1c7e810e-2ede-46be-b225-010275fe4800)
 
-You can freely add something, solve issues, comment, so i will gain new expereince <3
+### You can freely add something, solve issues, comment, so i will gain new expereince <3
