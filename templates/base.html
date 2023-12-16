@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    {% block head %}
+    {% endblock %}    
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head_row_1">
+                <a href="/microsoft" class="row_navigate">Microsoft</a>
+                <a href="/" class="row_navigate">Xbox</a>
+                <a href="/support" class="row_navigate">Підтримка</a>
+                <a href="/gamepass" class="row_navigate">GamePass</a>
+
+            </div>
+            <div class="head_row_2">
+                <a href="/porducts" class="row_navigate">Усі продукти Microsoft</a>
+                <div class="row_navigate"><p>Знайти</p></div>
+                <div class="head_image">
+                    <img src="https://th.bing.com/th/id/OIP.ozpRR3DYkvSAstV9Pi_InQHaHa?rs=1&pid=ImgDetMain" alt="" class="head_image">
+                </div>
+                <div class="row_navigate"><p>Кошик</p></div>
+                <div class="head_image">
+                    <img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG39.png" alt="" class="head_image">
+                </div>
+                <div class="row_navigate"><p>Вхід</p></div>
+            </div>
+        </div>
+    </header>
+    {% block body%}
+    {% endblock %}
+
+    <footer>
+        <h3>Знайдіть нас у соцмережах</h3>
+    </footer>
+</body>
+</html>

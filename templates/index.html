@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Xbox general page</title>
+{% endblock %}
+
+{% block body %}
+    <div class="general">
+        <span>This is XOBX</span>
+    </div>
+
+    {% if data == 1 %}
+
+        <div class='microsoft'>
+            <h1>Сторінка  Microsoft</h1>
+        </div>
+
+    {% elif data == 2 %}
+
+        <div class='support'>
+            <h1>Сторінка підтримкм</h1>
+        </div>
+
+    {% elif data == 3 %}
+
+        <div class='gamepass'>
+            <h1>Сторінка GamePass</h1>
+        </div>
+
+    {% elif data == 4 %}
+
+        <div class='products'>
+            <h1>Сторінка усіх продуктів</h1>
+        </div>
+
+    {% endif %}
+
+{% endblock %}
